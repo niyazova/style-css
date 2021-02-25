@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    background: url(./assets/home-bg.png) no-repeat top right;
+    background-size: cover;
+    min-height: 90vh;
+
+}
+.class {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 40px;
+}
+.img1  img {
+    height: 40px;
+    width: 150px;
+    object-fit: cover;
+}
+.ull  li {
+    padding-right: 50px;
+    list-style: none;
+}
+.active2 {
+    margin-left: 25px;
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+.ull ul li i {
+    font-size: 30px;
+}
+.ull  ul {
+    display: flex;
+    flex-direction: row;
+}
+.ull button {
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: white;
+    color:black;
+}
+.active {
+    display: block;
+    height: 10px;
+    width: 10px;
+    top: 20px;
+    left: 15px;
+    border-radius: 50%;
+    background-color: orangered;
+}
+.activeimg img {
+    height: 60px;
+    width: 120px;
+}
+.box1 button {
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: white;
+}
+.box1 input {
+    margin-bottom: 15px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+.aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left button {
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: orangered;
+}
+.inleft {
+    padding: 50px;
+    margin: 25px;
+}
+.inleft h1 {
+    padding-bottom: 25px;
+    font-size: 40px;
+}
+.inleft p {
+    padding-bottom: 25px;
+    font-size: 15px;
+}
+.right img {
+    height: 500px;
+    width: 500px;
+    object-fit: cover ;
+    padding-right: 100px;
+    padding-top: 150px;
+}
+.btnn {
+    margin: 50px;
+    padding: 30px;
+    height: 130px;
+    width: 220px;
+    border-radius: 25px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: white;
+    padding: 15px;
+    margin-left: 150px;
+}
+.btnn i {
+    font-size: 25px;
+    color: orangered;
+}
+.asidee {
+    display: flex;
+    flex-direction: row;
+}
+.leftt {
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+}
+.text {
+    padding: 25px;
+    margin: 40px;
+    margin-left: 250px;
+}
+.text h1 {
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.text h6 {
+    color: orangered;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+.text p {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.rightt img {
+    width: 450px;
+    height: 100vh;
+    object-fit: cover;
+    padding-left: 390px;
+}
+.text button {
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: orangered;
+    color: white;
+}
+.text .video {
+    background-color: white;
+    color: black;
+}
+.box3 button {
+    height: 250px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: white;
+    margin: 10px;
+    margin-left: 170px;
+}
+.box3 i {
+    color: orangered;
+    font-size: 50px;
+}
+.textt {
+    padding: 15px;
+    margin: 20px;
+}
+.textt h6 {
+    color: orangered;
+    text-align: center;
+    padding: 10px;
+}
+.textt h1 {
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+}
+.textt p {
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,32 @@
+@keyframes rotate {
+    0%{
+        width: 20px;
+        height: 20px;
+        padding-top: 0px;
+    }
+    25% {
+        width: 40px;
+        height: 40px;
+        padding-top: 100px;
+    }
+    50% {
+        width: 60px;
+        height: 60px;
+        padding-left: 150px;
+    }
+    75% {
+        width: 80px;
+        height: 80px;
+        padding-top: 200px;
+    }
+    100% {
+        width: 200px;
+        height: 2  00px;
+        padding-right: 250px;
+    }
+}
+i {
+    animation-name: rotate;
+    animation-duration: 8s;
+    margin: auto;
+}

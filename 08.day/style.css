@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.box1 {
+    background-color: red;
+    margin: 15px;
+    float: left;
+    width: 300px;
+    height: 630px;
+    border-radius: 25px;
+}
+.setting {
+    margin-top: 300px;
+    padding-left: 120px;
+}
+.setting ul {
+    list-style: none;
+}
+.load ul {
+    margin: 20px;
+    list-style: none;
+}
+h3 {
+    text-align: center;
+    margin: 15px;
+}
+i {
+    margin: 10px;
+    
+}
+.box2 {
+    background-color: rgb(226, 203, 172);
+    border-radius: 25px;
+    margin: 15px;
+    float: left;
+    width: 950px;
+    height: 630px;
+}
+h2 {
+    margin: 20px;
+}
+.tips {
+    display: none;
+}
+.load ul li:hover .tips
+{
+    border-radius: 25px;
+    width: 150px;
+    height: 150px;
+    display: block;
+    position: absolute;
+    background: rgb(214, 108, 108);
+    margin-top: -50px;
+    margin-left: 110px;
+}
+.tip2 {
+    display: none;
+}
+.tips ul li:hover .tip2
+{
+    border-radius: 25px;
+    width: 150px;
+    height: 150px;
+    display: block;
+    position: absolute;
+    background: rgb(214, 108, 108);
+    margin-top: -35px;
+    margin-left: 110px;
+}

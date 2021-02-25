@@ -1,0 +1,80 @@
+* {
+    margin: 0%;
+}
+h3 {
+    margin: 20px;
+}
+.btn button {
+    float: left;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 15px;
+    height: 100px;
+    width: 200px ;
+    background-color: white;
+    font-size: 15px;
+    color: rgb(16, 190, 16);
+} 
+.btn button i {
+    color:rgb(16, 190, 16);
+    font-size: 30px;
+}
+.btn2 button {
+    float: left;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 15px;
+    height: 100px;
+    width: 200px ;
+    background-color: white;
+    font-size: 15px;
+} 
+.btn2 button i{
+    font-size: 30px;
+}
+.btn3 button {
+    float: left;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 15px;
+    height: 100px;
+    width: 200px ;
+    background-color: white;
+    font-size: 15px;
+}
+.btn3 button i {
+    font-size: 30px;
+}
+.container select {
+    margin: 20px;
+    height: 50px;
+    border-radius: 15px;
+    width: 690px;
+}
+.text input {
+    margin: 20px;
+    height: 50px;
+    border-radius: 15px;
+    width: 690px;
+}
+.left input {
+    margin: 20px;
+    height: 50px;
+    border-radius: 15px;
+    width: 690px;
+}
+.note input {
+    margin: 20px;
+    height: 70px;
+    border-radius: 15px;
+    width: 690px;
+}
+.radio input {
+    margin: 20px;
+}
+.btnn button {
+    margin: 20px;
+    width: 325px;
+    height: 70px;
+    border-radius: 15px;
+}

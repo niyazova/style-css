@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h3>New Payment</h3>
+            <div class="btn">
+                <button>  <i class="fa fa-credit-card" aria-hidden="true"></i> <br> Card</button>
+            </div>
+            <div class="btn2">
+                <button><i class="fa fa-money" aria-hidden="true"></i> <br> Cash</button>
+            </div>
+            <div class="btn3">
+                <button><i class="fa fa-home" aria-hidden="true"></i> <br> Other</button>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <label for="students"></label>
+                <select name="Students" id="Students">
+                    <option value="Lily">Lily</option>
+                    <option value="Amanda">Amanda</option>
+                    <option value="Selena">Selena</option>
+                    <option value="Nick">Nick</option>
+                </select>
+        </div>
+        <div class="text">
+            <label for="number"></label>
+            <input type="number" placeholder="Amount" id="number" name="number" >
+        </div>
+        <div class="left">
+            <label for="text"></label>
+            <input type="text" placeholder="Left">
+        </div>
+        <div class="note">
+            <label for="Note"></label>
+            <input type="text" placeholder="Note...">
+        </div>
+        <div  class="radio">
+            <label for="radio"Mark as paid></label>
+            <input type="radio" id="radio">Mark as paid
+        </div>
+    </section>
+    <footer>
+        <div class="btnn">
+            <button>Cancel</button>
+            <button style="background-color: green; color: white;">Create</button>
+        </div>
+    </footer>
+</body>
+</html>

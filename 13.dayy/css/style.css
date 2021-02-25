@@ -1,0 +1,174 @@
+:root {
+    font-size: 16px;
+    --main: #ff9800;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+nav.d-flex {
+    justify-content: space-between;
+    height: 100px;
+}
+
+#logo img {
+    height: 100%;
+    max-height: 100px;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu-item {
+    margin-left: 1.8rem;
+    position: relative;
+}
+
+
+.menu-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+    font-family: 'Noto Sans JP', sans-serif;
+    ;
+}
+
+.menu-item.active::after,
+.menu-item:not(.has-button):hover::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: var(--main);
+    position: absolute;
+    bottom: -12px;
+    border-radius: 50%;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.btn {
+    height: 45px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 22.5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.btn.primary:hover {
+    background-color: #fff;
+    color: var(--main);
+}
+
+.btn:hover,
+.btn.primary {
+    background-color: var(--main);
+    color: #fff;
+    border-color: var(--main);
+}
+
+.has-counter {
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.counter {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: #f9f9f9;
+    background-color: var(--main);
+    position: absolute;
+    right: -8px;
+    top: 0px;
+    font-size: 0.5rem;
+    text-align: center;
+    line-height: 15px;
+}
+
+
+/* ------------ HOME SECTION ------------ */
+
+#home {
+    background: url(../assets/img/home-bg.png) no-repeat top right;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 100px;
+}
+
+#home-left-image {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 250px;
+}
+
+.col-right {
+    width: 60%;
+    flex: 1;
+    text-align: right;
+}
+
+.col-left {
+    max-width: 40%;
+    padding-right: 40px;
+}
+
+.col-left h1 {
+    line-height: 1.2;
+}
+
+.col-left p {
+    line-height: 1.65;
+}
+
+#home-image {
+    width: 100%;
+    max-width: 500px;
+}

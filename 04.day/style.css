@@ -1,0 +1,29 @@
+body {
+    font-style: italic; 
+    font-size: larger; 
+    font-family: 'Potta One', cursive;
+}
+ 
+nav{
+    background-color: lightblue;
+    margin: 0px;
+    padding: 30px;
+    border-radius: 25px;
+}
+.active{
+    color: red;
+}
+.image img {
+ height: 30px;
+ max-height: 300px;
+min-height: 250px;
+ width:200px ;
+ margin: 50px;
+}
+button{
+    border-radius:25px;
+    background-color: blue;
+}
+article{
+    color: green;
+}

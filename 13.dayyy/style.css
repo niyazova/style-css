@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.box { background: url(./assets/home-bg.png) no-repeat top right;
+    background-size: cover;
+    min-height: 100vh;
+    object-fit: cover;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.ull {
+    position: fixed;
+    margin-left: 550px;
+}
+.ull ul li {
+    padding: 30px;
+    list-style: none;
+   
+}
+.ull span {
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: orangered;
+    margin-left: 15px;
+}
+.ull ul {
+    display: flex;
+    flex-direction: row;
+}
+.ull i {
+    font-size: 25px;
+}
+.ull button {
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: white;
+}
+.navigation img {
+    height: 60px;
+    width: 150px;
+    object-fit: cover ;
+}
+.box1 {
+    display: flex;
+    flex-direction: row;
+}
+.inleft h1 {
+    font-size: 30px;
+    padding: 15px;
+    margin-left:80px ;
+}
+.inleft p {
+    font-size: 15px;
+    padding: 20px;
+    margin-left:80px ;
+}
+.inleft button {
+    height: 40px;
+    width: 180px;
+    background-color: orangered;
+    color: white;
+    border-radius: 25px;
+    margin-left:80px ;
+}
+.right img {
+    height: 600px;
+    width: 550px;
+    object-fit: cover;
+}
+.box2  button {
+    height: 150px;
+    width: 200px;
+    border-radius: 25px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: white;
+    margin-left: 150px;
+}
+.box2 {
+    margin: 50px;
+}
+.box2 i {
+    font-size: 30px;
+    color: orangered;
+    padding: 15px;
+}
+.box3 {
+    display: flex;
+    flex-direction: row;
+}
+.text h6 {
+    color: orangered;
+    font-size: 15px;
+    padding: 10px;
+}
+.text h1 {
+    font-size: 30px;
+    padding: 10px;
+}
+.text p {
+    padding: 10px;
+}
+.text button {
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: orangered;
+    color: white;
+}
+.text .activebtn {
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: white;
+    color: rgb(70, 43, 43);
+}
+.rightt img {
+    margin-left: 400px;
+    object-fit: cover;
+}
+.textt h6 {
+    color: orangered;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+.textt h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+.textt p {
+    padding: 10px;
+    text-align: center;
+}
+.btnn button {
+    height: 200px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: white;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.btnn i {
+    font-size: 30px;
+    color: orangered;
+    padding: 15px;
+}
+.imgbtn button {
+    height: 450px;
+    width: 330px;
+    border-radius: 50px;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    margin: 30px;
+    margin-left: 50px;
+}
+.imgbtn button img {
+    object-fit: cover;
+    height: 200px;
+    width: 325px;
+    border-radius: 60px;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.boxxx {
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    margin-left: 500px;
+    background-color: orangered;
+    color: white;
+    margin-bottom: 50px;
+}
+.bottom button {
+    margin: 50px;
+    margin-top: 50px;
+    margin-left: 450px;
+    height: 300px;
+    width: 400px;
+    border-radius: 50px;
+    background-color: white;
+}
+.bottom img {
+    
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: orangered;
+}
+.ull ul li {
+    padding: 30px;
+    list-style: none;
+   
+}
+.ull span {
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: orangered;
+}
+.ull ul {
+    display: flex;
+    flex-direction: row;
+}
+.ull i {
+    font-size: 25px;
+}
+.ull button {
+    height: 100%;
+    width: 150px;
+    border-radius: 25px;
+    background-color: white;
+}
+.span {
+    left: 250px;
+    padding: 5px;
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 55px 450px;
+    border: 1px solid;
+    border-color: rgb(121, 115, 106);
+    display: flex;
+    flex-direction: row;
+}
+.span input {
+    width: 400px;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: white;
+}
+.span button {
+    height: 100%;
+    width: 180px;
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+    border-color: orangered;
+}
+.footer img {
+    height: 60px;
+    width: 150px;
+    object-fit: cover ;
+}

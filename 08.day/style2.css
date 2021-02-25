@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.box1 {
+    position: absolute;
+    background-color:#FF5C4A;
+    margin: 15px;
+    float: left;
+    width: 241px;
+    height: 630px;
+    border-radius: 25px;
+}
+.setting {
+    margin-top: 300px;
+    padding-left: 100px;
+}
+.setting ul {
+    list-style: none;
+}
+.load ul {
+    margin: 20px;
+    list-style: none;
+}
+h4 {
+    color: white;
+}
+h3 {
+    color: white;
+    text-align: center;
+    margin: 15px;
+}
+i {
+    margin: 10px;
+    
+}
+.tips h2 {
+    margin: 30px;
+}
+.tips {
+    border-radius: 25px;
+    float: left;
+    background-color:wheat;
+    display: none;
+    width: 980px;
+    height: 630px;
+    margin-left: 310px;
+    margin-top: -165px;
+
+}
+.load ul li:hover .tips
+{
+    display: block;
+    position: absolute;
+}
+.btn button {
+    background-color: orangered;
+    height: 25px;
+    width: 120px;
+    border-radius: 25px;
+    margin-left: 800px;
+
+}
+.boxx {
+    background-color: white;
+    float: left;
+    height: 380px;
+    width: 400px;
+    margin: 30px;
+}
+.image { 
+    height: 200px;
+    width: 150px;
+    margin-left: 85px;
+    border-radius: 50px;
+}
+.boxx h4 {
+    color:black;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+.boxx2 h4 {
+    margin-top: 30px;
+    margin-left: 130px;
+}
+.boxx button { 
+    width: 400px;
+    height: 40px;
+    margin-right: 50px;
+}
+.boxx2 {
+    background-color: white;
+    float: left;
+    height: 380px;
+    width: 400px;
+    margin: 30px;
+}
+.boxx2 button { 
+    width: 400px;
+    height: 40px;
+    margin-right: 50px;
+}
+.content {
+    border-radius: 25px;
+    float: left;
+    background-color:rgb(226, 213, 191);
+    display: none;
+    width: 980px;
+    height: 630px;
+    margin-left: 310px;
+    margin-top: -125px;
+
+}
+.load ul li:hover .content 
+{
+    display: block;
+    position: absolute;
+}
+h5 {
+    margin: 30px;
+}
+.content h2 {
+    margin: 20px;
+}
+.road {
+    border-radius: 25px;
+}
+.road input  {
+    background-color: white;
+    border-radius: 25px;
+    height: 45px; 
+    width: 450px;
+    margin: 20px;
+}
+.road button {
+    border-radius: 25px;
+    width: 215px;
+    height: 35px;
+    margin-left: 20px;
+}
+.pic {
+    border-radius: 25px;
+    margin-top:50px
+    margin: 20px;
+    height: 500px;
+    width: 500px;
+}
+a {
+    color: white;
+}
